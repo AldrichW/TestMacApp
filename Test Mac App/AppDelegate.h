@@ -10,6 +10,6 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-
+@property (nonatomic ,readonly) BOOL itWorks;
 @end
 
