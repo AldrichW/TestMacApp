@@ -20,8 +20,6 @@
     // Insert code here to initialize your application
     
     NSLog (@"Hello World");
-    
-    NSLog(@"What's Up?");
 
 }
 
