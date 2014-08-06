@@ -7,9 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (nonatomic ,readonly) BOOL itWorks;
+@property (nonatomic ,readonly) BOOL iHopeThisWorks;
 @end
 
