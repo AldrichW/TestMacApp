@@ -10,5 +10,8 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (nonatomic ,readonly) BOOL iHopeThisWorks;
+@property (nonatomic, readonly) NSString *myName;
+
+-(void) setMyName:(NSString *)myName;
 @end
 

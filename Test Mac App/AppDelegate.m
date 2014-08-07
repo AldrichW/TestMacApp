@@ -11,7 +11,7 @@
 @interface AppDelegate ()
             
 @property (weak) IBOutlet NSWindow *window;
-
+@property (readwrite) NSString *myName;
 @end
 
 @implementation AppDelegate
@@ -21,6 +21,10 @@
     
     NSLog (@"Hello World!");
 
+}
+
+-(void) setMyName:(NSString *)myName{
+    self.myName = myName;
 }
 
 @end
