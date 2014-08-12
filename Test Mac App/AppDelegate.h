@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate: NSObject <NSApplicationDelegate>
 
 @property (nonatomic ,readonly) BOOL iHopeThisWorks;
 @property (nonatomic, readonly) NSString *myName;
