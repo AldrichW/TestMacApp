@@ -27,6 +27,8 @@
     self.myName = myName;
     
     NSLog(@"This works well");
+    NSLog(@"This doesn't work");
+    NSLog(@"This works very well");
 }
 
 @end
