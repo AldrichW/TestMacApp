@@ -25,6 +25,8 @@
 
 -(void) setMyName:(NSString *)myName{
     self.myName = myName;
+    
+    NSLog(@"This works well");
 }
 
 @end
