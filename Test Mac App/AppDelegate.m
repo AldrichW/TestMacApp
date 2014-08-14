@@ -12,8 +12,8 @@
             
 @property (weak) IBOutlet NSWindow *window;
 @property (readwrite) NSString *myName;
-@end
 
+@end
 @implementation AppDelegate
             
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
@@ -28,7 +28,8 @@
     
     NSLog(@"This works well");
     NSLog(@"This doesn't work");
-    NSLog(@"This works very well");
+    NSLog(@"What the heck is going on");
+    NSLog(@"All good!!!");
 }
 
 @end
