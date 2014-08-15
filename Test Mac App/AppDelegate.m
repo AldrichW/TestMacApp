@@ -23,13 +23,17 @@
 
 }
 
--(void) setMyName:(NSString *)myName{
+-(void) setMyName:(NSString *)myName {
     self.myName = myName;
     
     NSLog(@"This works well");
     NSLog(@"This doesn't work");
     NSLog(@"What the heck is going on");
     NSLog(@"All good!!!");
+}
+
+-(NSString*)getMyName{
+    return self.myName;
 }
 
 @end
