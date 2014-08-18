@@ -12,6 +12,8 @@
             
 @property (weak) IBOutlet NSWindow *window;
 @property (readwrite) NSString *myName;
+@property (readwrite) NSString *yourName;
+@property (readwrite) NSUInteger count;
 
 @end
 @implementation AppDelegate

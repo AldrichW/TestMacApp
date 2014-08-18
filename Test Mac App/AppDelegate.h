@@ -13,5 +13,6 @@
 @property (nonatomic, readonly) NSString *myName;
 
 -(void) setMyName:(NSString *)myName;
+
 @end
 
