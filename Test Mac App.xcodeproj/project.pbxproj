@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B6ACD3019A1566E0044A29A /* Check-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6ACD2F19A1566E0044A29A /* Check-256.png */; };
 		5B6ACD3319A166880044A29A /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6ACD3219A166880044A29A /* loginViewController.m */; };
+		5BB281CA19A1A56E00F03F6A /* Check-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB281C919A1A56E00F03F6A /* Check-256.png */; };
 		5BF633F6194BEBA800AD83C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF633F5194BEBA800AD83C8 /* main.m */; };
 		5BF633F9194BEBA800AD83C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF633F8194BEBA800AD83C8 /* AppDelegate.m */; };
 		5BF633FB194BEBA800AD83C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF633FA194BEBA800AD83C8 /* Images.xcassets */; };
@@ -27,9 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B6ACD2F19A1566E0044A29A /* Check-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Check-256.png"; path = "../../../../Downloads/Check-256.png"; sourceTree = "<group>"; };
 		5B6ACD3119A166880044A29A /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
 		5B6ACD3219A166880044A29A /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		5BB281C919A1A56E00F03F6A /* Check-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Check-256.png"; path = "Images.xcassets/Check-256.png"; sourceTree = "<group>"; };
 		5BF633F0194BEBA800AD83C8 /* Test Mac App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Mac App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF633F4194BEBA800AD83C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BF633F5194BEBA800AD83C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		5B6ACD2E19A156650044A29A /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				5B6ACD2F19A1566E0044A29A /* Check-256.png */,
+				5BB281C919A1A56E00F03F6A /* Check-256.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B6ACD3019A1566E0044A29A /* Check-256.png in Resources */,
+				5BB281CA19A1A56E00F03F6A /* Check-256.png in Resources */,
 				5BF633FB194BEBA800AD83C8 /* Images.xcassets in Resources */,
 				5BF633FE194BEBA800AD83C8 /* Main.storyboard in Resources */,
 			);
